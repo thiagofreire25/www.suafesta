@@ -1,0 +1,126 @@
+ /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+      height: 50%;
+    }
+    #txt_jumbo{
+      color: #FFF;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    .jumbotron h2{
+      color: #fff;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    .navbar-toggle{
+      background-color: #FFF;
+    }
+    #logo{
+      color: #FFF;
+      margin-top: 6px;
+    }
+    #title_lista{
+      text-align: center;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+    }
+    #title_lista h1{
+      font-size: 50px;
+    }
+    #title_form h2{
+      font-size: 40px;
+    }
+    #hover{
+      color: #fff;
+    }
+     #minhanav{
+      /*margin-top: -30px;*/
+      background-color: #337AB7;
+      border: 1px solid #337AB7;
+    }
+    #minhanav ul li a:hover{
+      
+    }
+    #hoverfixo{
+       background-color: #296392;
+    }
+    #hover:hover{
+      background-color: #296392;
+    }
+    .btn{
+      background-color: #FF9FB0;
+    }
+    .btn:hover{
+      background-color: #FF93A6;
+    }
+    #panel{
+      background-color: #BA55D3;
+    }
+    #nome_item{
+      color: #FFF;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .icon-gift{
+      /*color: #FFC1C1;*/
+    }
+    
+    .col-sm-6{
+      background-image: url(../img/fundoform.fw.png); 
+      height: 530px;
+    }
+    @media (max-width: 360px) {
+      .col-sm-6{display: none;}
+    }
+    @media (max-width: 1660px) {
+      .off{display: none;}
+    }
+    #caixalogin{
+      background-image: url(../img/presentear.fw.png); 
+      border-radius: 10px;
+      height: 530px;
+      box-shadow: 8px 8px 13px;
+    }
+    #caixa_recado{
+      background-image: url(../img/imgfundorecado.fw.png);
+      height: 490px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 3px 6px 15px #000;
+    }
+    #recado{
+       
+      background-color: #EAF4F3; 
+      border: 1px solid #999;"
+    }
+    .required:after {
+      content:" *"; 
+      color: red;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+      margin-top: 20px;
+    }
+    .social{
+      font-size: 25px;
+      margin-bottom: 18px;
+    }
+    .social a{
+      padding: 10px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .suporte{
+      margin-bottom: 15px;
+    }
+    .suporte a{
+      text-decoration: none;
+      padding: 8px;
+    }

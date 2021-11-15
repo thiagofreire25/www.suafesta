@@ -1,0 +1,27 @@
+.form-group{
+	color: #FFF;
+}
+#emailHelp{
+	color: #fff;
+}
+.link{
+	color: #FFF;
+}
+.link:hover{
+	color: yellow;
+	text-decoration: none;
+}
+.col-sm-6{
+	background-image: url(../img/imgfundo.jpg); 
+	widows: 450px;
+	height: 450px;
+}
+@media (max-width: 360px) {
+  .col-sm-6{display: none;}
+}
+#caixalogin{
+	background-image: url(../img/10.fw.png); 
+	border-radius: 10px;
+	height: 450px;
+	box-shadow: 8px 8px 13px;
+}

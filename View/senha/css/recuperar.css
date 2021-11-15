@@ -1,0 +1,16 @@
+.col-sm-6{
+      background-image: url(../../img_fd/fundorecupera.fw.png); 
+      height: 530px;
+    }
+    @media (max-width: 360px) {
+      .col-sm-6{display: none;}
+    }
+    @media (max-width: 1660px) {
+      .off{display: none;}
+    }
+    #caixarecuperar{
+      background-image: url(../../img/recuperaçãosenha.fw.png); 
+      border-radius: 10px;
+      height: 530px;
+      box-shadow: 8px 8px 13px;
+    }

@@ -1,0 +1,26 @@
+.form-group{
+	color: #FFF;
+}
+#emailHelp{
+	color: #fff;
+}
+.link{
+	color: #FFF;
+}
+.link:hover{
+	color: yellow;
+	text-decoration: none;
+}
+.col-sm-7{
+	background-image: url(../img/imgfundo2.fw.png); 
+	height: 560px;
+}
+@media (max-width: 360px) {
+  .col-sm-7{display: none;}
+}
+#caixalogin{
+	background-image: url(../img/fundocad.fw.png); 
+	border-radius: 10px;
+	height: 560px;
+	box-shadow: 8px 8px 13px;
+}

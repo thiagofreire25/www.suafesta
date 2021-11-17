@@ -61,7 +61,7 @@ include_once '../../Model/conexao.php';
         <center><img src="../img/logo.fw.png" width="210px"></center>
     <div class="form-group">
       <label for="exampleInputEmail1" class="required" >Nome:</label>
-      <input type="nome" name="nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digide seu nome completo" required="">
+      <input type="nome" name="nm_cadastro" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digide seu nome completo" required="">
     </div>
     <div class="form-group">
       <label for="exampleInputEmail1" class="required" >E-mail:</label>

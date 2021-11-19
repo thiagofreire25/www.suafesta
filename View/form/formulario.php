@@ -85,7 +85,7 @@ Swal.fire({
         </div>
     <div class="form-group">
       <label for="exampleInputEmail1" class="required" >Nome:</label>
-    <input class="form-control"  type="text" placeholder="Digite seu nome" name="nome" required="">
+    <input class="form-control"  type="text" placeholder="Digite seu nome" name="nm_formulario" required="">
     </div>
     <div class="form-group">
       <label for="ex2" class="required">Sobrenome:</label>

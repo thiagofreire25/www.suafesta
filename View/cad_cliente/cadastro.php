@@ -77,7 +77,7 @@ include_once '../../Model/conexao.php';
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1" class="required" >Repetir Senha:</label>
-      <input type="password" name="confirmsenha" class="form-control" id="exampleInputPassword1" placeholder="Digite novamente sua senha" required="">
+      <input type="password" name="confirmasenha" class="form-control" id="exampleInputPassword1" placeholder="Digite novamente sua senha" required="">
     </div>
     <div class="form-check">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
